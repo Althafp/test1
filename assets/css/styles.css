@@ -228,13 +228,45 @@ img {
   background-clip: text;
 }
 
+
+#set-height {
+  display: block;
+}
+#v0 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+p font-family helvetica {
+  font-size: 24px;
+}
+h1 {
+  position: fixed;
+  top: 80%;
+  left: 80%;
+  width: 20%;
+  transform: translate(-50%,-50%);
+  z-index: 99;
+  font-family: HelveticaNeue, Helvetica, sans-serif;
+  font-size:8vmin;
+  text-align:center;
+  color: white;
+  
+}
+
+
+
+
 /*=============== HOME ===============*/
-.home__img {
+/*.home__img {
   width: 250px;
   position: absolute;
   top: -16rem;
   right: 1.5rem;
-}
+}*/
+
+
 
 .home__data {
   padding-top: 5rem;
@@ -377,7 +409,8 @@ img {
 /*=============== DISCOUNT ===============*/
 .discount__container {
   position: relative;
-  background-color: var(--container-color);
+  background-size: cover;
+  background-position: center;
   padding: 2rem 1.5rem;
   border-radius: .75rem;
 }
